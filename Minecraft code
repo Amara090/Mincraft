@@ -1,0 +1,25 @@
+
+	
+
+let name = "Amara";
+let hair_color = "Brown";
+let age = 0;
+
+
+
+
+
+age = 32;
+
+
+age = randint(1, 100);
+
+player.say("Your age is : "+ age)
+
+
+if  (age > 32 && hair_color == "Brown"){
+}else {
+     player.say("your old and have a bad hair line");
+     player.say("You have a great looking hair and just need to dye it pink!")
+}
+
