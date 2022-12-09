@@ -1,0 +1,9 @@
+player.onChat("run", function () {
+	player.say ("lets move");
+agent.teleportToPlayer()
+agent.move(FORWARD, randint (1,50))
+
+agent.move(FORWARD, randint (-1,-50))
+
+    
+})
