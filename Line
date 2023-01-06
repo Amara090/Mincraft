@@ -1,0 +1,9 @@
+player.onChat("run", function () {
+     player.say("Starting to PLace Blocks");
+   
+   for (let x = 1; x <= 25; x++) {
+       player.say("Starting to PLace Stone");
+       blocks.place(BEDROCK, pos(0, 0, x));
+
+   }
+})
