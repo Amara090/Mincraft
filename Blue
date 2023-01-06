@@ -1,0 +1,33 @@
+player.onChat("run", function () {
+     player.say("Starting to PLace Blocks");
+    blocks.place(STONE, pos(1, 1, 1))
+    blocks.place(STONE, pos(1, 2, 1))
+    blocks.place(STONE, pos(1, 3, 1))
+    blocks.place(STONE, pos(1, 1, 2))
+    blocks.place(STONE, pos(1, 2, 2))
+    blocks.place(STONE, pos(1, 3, 2))
+    blocks.place(STONE, pos(1, 1, 3))
+    blocks.place(STONE, pos(1, 2, 3))
+    blocks.place(STONE, pos(1, 3, 3))
+   
+    blocks.place(STONE, pos(2, 1, 1))
+    blocks.place(STONE, pos(2, 2, 1))
+    blocks.place(STONE, pos(2, 3, 1))
+    blocks.place(STONE, pos(2, 1, 2)) 
+    blocks.place(STONE, pos(2, 2, 2))
+    blocks.place(STONE, pos(2, 3, 2))
+    blocks.place(STONE, pos(2, 1, 3))
+    blocks.place(STONE, pos(2, 2, 3))
+    blocks.place(STONE, pos(2, 3, 3))
+
+    blocks.place(STONE, pos(3, 1, 1))
+    blocks.place(STONE, pos(3, 2, 1))
+    blocks.place(STONE, pos(3, 3, 1))
+    blocks.place(STONE, pos(3, 1, 2))
+    blocks.place(STONE, pos(3, 2, 2))
+    blocks.place(STONE, pos(3, 3, 2))
+    blocks.place(STONE, pos(3, 1, 3))
+    blocks.place(STONE, pos(3, 2, 3))
+    blocks.place(STONE, pos(3, 3, 3))
+})
+
