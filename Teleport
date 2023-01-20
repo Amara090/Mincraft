@@ -1,0 +1,23 @@
+player.onChat("run", function () {
+agent.teleportToPlayer()
+agent.teleport(world(214,71,480), WEST);
+   
+    while (true) {
+        solveMaze();
+    }
+})
+
+ 
+
+    function solveMaze() {
+        player.say("Talking a step to sovle the maze");
+	// if air Left
+    // go forward 
+    // lf else if air forward 
+    //else if air right turn right 
+    // turn right 
+    // go forward 
+    // else 180
+    }
+
+
