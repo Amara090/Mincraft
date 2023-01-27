@@ -1,0 +1,46 @@
+player.onChat("run", function () {
+agent.teleportToPlayer()
+agent.teleport(world(214,71,480), WEST);
+   
+    while (true) {
+        solveMaze();
+    }
+})
+
+ 
+
+    function solveMaze() {
+        player.say("Talking a step to sovle the maze");
+	
+    
+    
+    
+        if (!agent.detect(AgentDetection.Block, LEFT)
+            && !agent.detect(AgentDetection.Redstone, LEFT)) {
+        player.say("1 - Able to move Left");
+        agent.turn(TurnDirection.Left);
+        agent.move(FORWARD, 1);
+ 
+    }
+
+      else  if (!agent.detect(AgentDetection.Block, FORWARD)
+            && !agent.detect(AgentDetection.Redstone, FORWARD)) {
+            player.say("2 - Able to move Forward");
+            agent.move(FORWARD, 1);
+
+
+    }
+    
+        else if (!agent.detect(AgentDetection.Block, RIGHT)
+            && !agent.detect(AgentDetection.Redstone, RIGHT)) {
+            player.say("2 - Able to move Right");
+            agent.turn(TurnDirection.Right);
+            agent.move(FORWARD, 1);
+
+
+    } else {
+            player.say("2 - Able to move 180 ");
+            agent.turn(TurnDirection.Right);
+            agent.turn(TurnDirection.Right); 
+
+    }}
